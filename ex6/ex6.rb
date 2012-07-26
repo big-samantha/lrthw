@@ -15,6 +15,6 @@ joke_evaluation = "Isn't that joke so funny!? #{hilarious}"
 puts joke_evaluation
 
 w = "This is the left side of..."
-e = "a string with a wright side."
+e = "a string with a right side."
 
 puts w + e
