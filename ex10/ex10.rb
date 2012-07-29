@@ -13,3 +13,7 @@ puts tabby_cat
 puts persian_cat
 puts backslash_cat
 puts fat_cat
+
+puts "I\slove\schicken\sand\salso %s, %s, and %s." % ["Broccoli", "Stew", "Beets"]
+
+puts "Chicken\b."
