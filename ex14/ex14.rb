@@ -1,5 +1,5 @@
 user = ARGV.first
-prompt = '> '
+prompt = '$ '
 
 puts "Hi #{user}, I'm the #{$0} script."
 puts "I'd like to ask you a few questions."
