@@ -1,9 +1,14 @@
 ## Setvs variable filename as a string equal to the first argument we pass 
 ## the script.
-filename = ARGV.first
+#filename = ARGV.first
 
 ## Set variable prompt equal to string containing > character and a space.
 prompt = "> "
+
+## Modified script here to ask for input instead of using an argument
+puts "Give me a filename!"
+print prompt
+filename = STDIN.gets.chomp()
 
 ## Set variable txt to be a reference to file specified in variable "filename"
 txt = File.open(filename)
