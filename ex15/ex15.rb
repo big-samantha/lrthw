@@ -34,3 +34,8 @@ txt_again = File.open(file_again)
 
 ## put contents of file represented by txt_again as a string due to .read()
 puts txt_again.read()
+
+## Close the files once we're done with them.
+## Haha Zed. There is no close method. It's not necessary in ruby.
+#File.close(filename)
+#File.close(file_again)
