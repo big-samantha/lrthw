@@ -15,18 +15,17 @@ puts "Here's your file: #{filename}"
 puts txt.read()
 
 ## Print a string
-#puts "I'll also ask you to type it again:"
+puts "I'll also ask you to type it again:"
 
 ## Print the value of the variable "prompt"
-#print prompt
+print prompt
 
 ## Get a new filename from stdin and set variable file_again
 ## equal to that filename
-#file_again = STDIN.gets.chomp()
+file_again = STDIN.gets.chomp()
 
 ## Set variable txt_again equal to file named in file_again
-#txt_again = File.open(file_again)
+txt_again = File.open(file_again)
 
 ## put contents of file represented by txt_again as a string due to .read()
-#puts txt_again.read()
-
+puts txt_again.read()
