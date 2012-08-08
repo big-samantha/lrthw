@@ -1,8 +1,12 @@
+## set variable filename equal to string given by first argument
 filename = ARGV.first
+## set variable script equal to the name of this file.
 script = $0
 
+## Print out a line of text including evaluated variable "filename"
 puts "We're going to erase #{filename}."
-puts "If you don't want that, hit CTROL-C (^C)."
+
+puts "If you don't want that, hit CTRL-C (^C)."
 puts "If you do want that, hit RETURN."
 
 print "? "
