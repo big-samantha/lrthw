@@ -22,6 +22,7 @@ puts "Opening the file..."
 ## Open the file with name in string filename.
 ## w option means set to write mode only, and
 ## will create the file if necessary
+## this uses C stdlib call fopen - man fopen
 target = File.open(filename, 'w')
 
 puts "Truncating the file. Goodbye!"
