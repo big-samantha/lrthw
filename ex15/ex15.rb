@@ -36,6 +36,5 @@ txt_again = File.open(file_again)
 puts txt_again.read()
 
 ## Close the files once we're done with them.
-## Haha Zed. There is no close method. It's not necessary in ruby.
 txt.close
 txt_again.close
