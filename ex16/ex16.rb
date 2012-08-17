@@ -30,7 +30,7 @@ puts "Truncating the file. Goodbye!"
 ## Truncate all text out of the file "target" represents
 ## Truncate takes an amount of data as an argument, but in this case
 ## target.size returns the exact size of the file as the argument 
-target.truncate(target.size)
+#target.truncate(target.size)
 
 puts "Now I'm going to ask you for three lines."
 
@@ -42,7 +42,7 @@ print "line 3: "; line3 = STDIN.gets.chomp()
 puts "I'm going to write these to the file."
 
 ## write these strings into the file, with newlines in between them
-target.write(line1, "\n", line2, "\n", line3, "\n")
+target.write(line1 +  "\n" +  line2 +  "\n" +  line3 +  "\n")
 
 puts "And finally, we close it."
 
