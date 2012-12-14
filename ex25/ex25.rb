@@ -1,6 +1,6 @@
 module Ex25
   def self.break_words(stuff)
-    # This functino will break up words for us.
+    # This function will break up words for us.
     words = stuff.split(' ')
     words
   end
