@@ -34,7 +34,26 @@ elsif door == "2"
   else
     puts "The insanity rots your eyes into a pool of muck. Good job!"
   end
+end
 
-else
-  puts "You stumble around and fall on a knife and die. Good job!"
+if bear == "1" or door == "2"
+  puts "You stumble around, blind, in the dark dungeon, when suddenly,"
+  puts "your body and mind  is restored. You see an old man with a long white"
+  puts "beard, and he says, \"Welcome to the Jungle, son.\"."
+  puts "Do you:"
+  puts "1. Steal his beard."
+  puts "2. Thank him for restoring your faculties."
+  puts "3. Run away."
+
+  prompt; oldman = gets.chomp
+
+  if oldman == "1"
+    puts "You attempt to steal the old man's beard, but it's attached
+    to his face! That wasn't very smart. He uses his magic wand to 
+    blow you into smithereens."
+  elsif oldman == "2" or oldman == "3"
+    puts "The old man laughs and vanishes in a puff of smoke, and you
+    suddenly find yourself home, warm in bed, wondering if this whole
+    experience was real, or just a dream. Also, you have no fingers."
+  end
 end
