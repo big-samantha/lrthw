@@ -1,12 +1,19 @@
+# define a prompt function
 def prompt()
   print "> "
 end
 
+# define gold_room function
 def gold_room()
+  # print out a string
   puts "This room is full of gold.  How much do you take?"
 
+  # prompt, and set var next_move equal to gets.chomp
   prompt; next_move = gets.chomp
-  if next_move.include? "0" or next_move.include? "1"
+  # verify next_move equals a number by making sure it contains a 0 or 1???
+  # not very useful..
+  # also, .include? checks if a string or array contains something.
+  if next_move =~ /^[-+]?[0-9]+$/
     how_much = next_move.to_i()
   else
     dead("Man, learn to type a number.")
