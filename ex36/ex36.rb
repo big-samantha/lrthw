@@ -1,7 +1,12 @@
+def prompt ()
+  print 'INPUT MISANDRIC COMMAND: '
+end
+
 def start
   puts 'You awake in a dark room. You see a door in front of you. Do you:'
   puts 'A - Open the door.'
   puts 'B - Run away!'
+  prompt
   startdo = STDIN.gets.chomp
   if startdo == 'A' or startdo == 'a'
     akinroom()
@@ -19,6 +24,7 @@ raving about "Legitimate Rape(tm)", and muttering something about
 of security. Then seduce him and spermjack that bastard, like a good misandrist.'
   puts 'C - Realize that he is so very right, and you are so very wrong, and get
 married, and have ten million babies with him.'
+  prompt
   akindo = STDIN.gets.chomp
 
   if akindo == 'A'
@@ -34,6 +40,7 @@ end
 def etsyroom
   puts 'After spending several hours bronzing Todd Akin\'s balls and turning them into a beatiful necklace-based tribute to man-hate, how much money do you sell the necklace on Esty for?'
   lowballs = 'You have failed to realize the true value of Todd Akin\'s balls.'
+  prompt
   etsydo = STDIN.gets.chomp
   if etsydo.to_i > 0 and etsydo.to_i <= 50
    puts lowballs
@@ -53,6 +60,7 @@ def bronzeroom
   puts 'misandry, and used in ritual sacrifice to their lord Misandra. Do you:'
   puts 'A - Join their coven and worship Misandra.'
   puts 'B - Expose their evil deeds to the world in a tell-all blog.'
+  prompt
   bronzedo = STDIN.gets.chomp
   if bronzedo == 'A'
     foreskinroom()
@@ -67,6 +75,7 @@ def foreskinroom
   puts 'A - Make tents and sell them to unsuspecting misandrists.'
   puts 'B - Make them into jackets and sell them to unsuspecting misogynists.'
   puts 'C - Throw them out. Everything that comes from males is worthless.'
+  prompt
   foreskindo = STDIN.gets.chomp
   if foreskindo == 'A' or foreskindo == 'B' or foreskindo == 'C'
     win()
