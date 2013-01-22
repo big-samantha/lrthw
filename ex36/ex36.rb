@@ -71,7 +71,7 @@ def bronzeroom
 end
 
 def foreskinroom
-  puts 'You become best friends with the leader of the Misandric cult, Strawfeminina. Together you cause death and destruction to men anyway, spending the majority of your time forcefully circumcising male adults. What do you do with all the male foreskin you\'ve acquired?'
+  puts 'You become best friends with the leader of the Misandric cult, Strawfeminina. Together you cause death and destruction to men everywhere, spending the majority of your time forcefully circumcising male adults. What do you do with all the male foreskin you\'ve acquired?'
   puts 'A - Make tents and sell them to unsuspecting misandrists.'
   puts 'B - Make them into jackets and sell them to unsuspecting misogynists.'
   puts 'C - Throw them out. Everything that comes from males is worthless.'
