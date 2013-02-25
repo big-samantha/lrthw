@@ -8,10 +8,16 @@ prompt = "> "
 ## Modified script here to ask for input instead of using an argument
 puts "Give me a filename!"
 print prompt
+begin
 filename = STDIN.gets.chomp()
 
 ## Set variable txt to be a reference to file specified in variable "filename"
 txt = File.open(filename)
+rescue
+  puts 'That\'s not a real file! Try something else!'
+  print prompt
+  retry
+end
 
 ## Print string including evaluation of variable filename.
 puts "Here's your file: #{filename}"
